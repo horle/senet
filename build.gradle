@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'it.kussmaul.games'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'it.kussmaul.games.senet.cli.TestClass'
+    }
+}

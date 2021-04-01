@@ -1,0 +1,4 @@
+rootProject.name = 'senet'
+include 'base'
+include 'cli'
+
